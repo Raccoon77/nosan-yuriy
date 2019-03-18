@@ -1,0 +1,127 @@
+body {
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 25px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+  background-color: rgb(34, 78, 45);
+  color: #fff;
+  opacity: 0.9;
+}
+
+.header-logo {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+}
+
+.header-name {
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 25pt;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main-background {
+  width: 100%;
+  height: 600px;
+  background-image: url("../img/2.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  opacity: 0.8;
+}
+
+.main-block {
+  padding: 50px 0;
+  width: 100%;
+}
+
+.main-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+
+.main-item {
+  display: flex;
+  margin-right: 60px;
+  width: 510px;
+}
+
+.main-img {
+  margin-right: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.main-description {
+  margin: 0;
+}
+
+.form {
+  margin-bottom: 70px;
+}
+
+.new {
+  background: -moz-linear-gradient(#00400b, #EBFFFF);
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#00400b), to(#EBFFFF));
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00400b', endColorstr='#EBFFFF');
+  padding: 15px 15px;
+  color: #333;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #666;
+  font-size: 17pt;
+}
+
+.new:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#EBFFFF), to(#00400b));
+}
+
+.footer {
+  background: rgb(34, 78, 45);
+  color: #fff;
+  font-size: 70%;
+  padding: 20px;
+  clear: both;
+  opacity: 0.9;
+}
+
+.footer-social {
+  margin: 15px;
+  margin-bottom: 70px;
+}
+
+.footer-link {
+  margin: 13px;
+}
+
+.footer-description {
+  font-size: 15pt;
+}
+
+.footer-copyright {
+  font-size: 12pt;
+}
